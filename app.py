@@ -14,7 +14,7 @@ skin_thickness = st.sidebar.number_input("Skin Thickness", min_value=0.0, max_va
 insulin = st.sidebar.number_input("Insulin Level", min_value=0.0, max_value=900.0, value=90.0)
 bmi = st.sidebar.number_input("BMI", min_value=0.0, max_value=100.0, value=0.0)
 dpf = st.sidebar.number_input("Diabetes Pedigree Function (DPF)", min_value=0.0, max_value=3.0, value=0.2)
-age = st.sidebar.number_input("Age", min_value=1.0, max_value=120.0, value=2.0)
+age = st.sidebar.number_input("Age", min_value=1, max_value=120, value=2)
 
 # Create user input as a dictionary
 user_input = {
